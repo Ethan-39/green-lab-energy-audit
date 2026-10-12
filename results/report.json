@@ -1,0 +1,74 @@
+{
+  "inventory_file": "assets.csv",
+  "assets_ranked_by": "estimated_annual_kwh descending; ranking is for review only",
+  "assumptions": {
+    "electricity_price_yuan_per_kwh": 0.72,
+    "emission_factor_kgco2e_per_kwh": 0.536,
+    "factor_status": "illustrative placeholders; replace with documented local values",
+    "formula": "rated_kw * annual_hours * load_factor"
+  },
+  "asset_count": 5,
+  "totals": {
+    "estimated_annual_kwh": 5146.56,
+    "estimated_annual_cost_yuan": 3705.52,
+    "estimated_annual_emissions_kgco2e": 2758.56
+  },
+  "estimates": [
+    {
+      "asset_id": "LAB-01",
+      "asset_name": "示例超低温冰箱",
+      "category": "冷藏",
+      "rated_kw": 0.72,
+      "annual_hours": 6800.0,
+      "load_factor": 0.55,
+      "estimated_annual_kwh": 2692.8,
+      "estimated_annual_cost_yuan": 1938.82,
+      "estimated_annual_emissions_kgco2e": 1443.34
+    },
+    {
+      "asset_id": "LAB-02",
+      "asset_name": "示例通风柜",
+      "category": "通风",
+      "rated_kw": 0.45,
+      "annual_hours": 4200.0,
+      "load_factor": 0.7,
+      "estimated_annual_kwh": 1323.0,
+      "estimated_annual_cost_yuan": 952.56,
+      "estimated_annual_emissions_kgco2e": 709.13
+    },
+    {
+      "asset_id": "LAB-03",
+      "asset_name": "示例培养箱",
+      "category": "培养",
+      "rated_kw": 0.36,
+      "annual_hours": 5200.0,
+      "load_factor": 0.48,
+      "estimated_annual_kwh": 898.56,
+      "estimated_annual_cost_yuan": 646.96,
+      "estimated_annual_emissions_kgco2e": 481.63
+    },
+    {
+      "asset_id": "LAB-04",
+      "asset_name": "示例离心机",
+      "category": "分析",
+      "rated_kw": 1.1,
+      "annual_hours": 360.0,
+      "load_factor": 0.35,
+      "estimated_annual_kwh": 138.6,
+      "estimated_annual_cost_yuan": 99.79,
+      "estimated_annual_emissions_kgco2e": 74.29
+    },
+    {
+      "asset_id": "LAB-05",
+      "asset_name": "示例显微镜照明",
+      "category": "分析",
+      "rated_kw": 0.08,
+      "annual_hours": 1800.0,
+      "load_factor": 0.65,
+      "estimated_annual_kwh": 93.6,
+      "estimated_annual_cost_yuan": 67.39,
+      "estimated_annual_emissions_kgco2e": 50.17
+    }
+  ],
+  "limitations": "Nameplate estimates are not measured consumption or verified emissions."
+}

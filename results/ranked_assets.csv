@@ -1,0 +1,6 @@
+asset_id,asset_name,category,rated_kw,annual_hours,load_factor,estimated_annual_kwh,estimated_annual_cost_yuan,estimated_annual_emissions_kgco2e
+LAB-01,示例超低温冰箱,冷藏,0.72,6800.0,0.55,2692.8,1938.82,1443.34
+LAB-02,示例通风柜,通风,0.45,4200.0,0.7,1323.0,952.56,709.13
+LAB-03,示例培养箱,培养,0.36,5200.0,0.48,898.56,646.96,481.63
+LAB-04,示例离心机,分析,1.1,360.0,0.35,138.6,99.79,74.29
+LAB-05,示例显微镜照明,分析,0.08,1800.0,0.65,93.6,67.39,50.17
